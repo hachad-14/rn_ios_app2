@@ -4,7 +4,10 @@ workflows:
       - name: Install dependencies
         script:
           npm install --save react-native@latest
-      - name: pods
+      - name: pod init
+        script:
+          pod init
+      - name: pods install
         script:
           pod install
       - name: ipa file
