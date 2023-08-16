@@ -6,4 +6,4 @@ workflows:
           npm install --save react-native@latest
       - name: ipa file
         script:
-          npx react-native run-ios --configuration=release  
+          npx react-native run-ios --configuration=Debug  
