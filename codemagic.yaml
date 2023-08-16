@@ -6,6 +6,7 @@ workflows:
           npm install --save react-native@latest
       - name: pod init
         script:
+          cd ios
           pod init
       - name: pods install
         script:
