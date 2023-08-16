@@ -2,4 +2,6 @@ workflows:
   my-workflow:
     scripts:
       - name: Install dependencies
-        script: npx react-native run-ios --configuration=release
+        script:
+          npm install --save react-native@latest
+          npx react-native run-ios --configuration=release
